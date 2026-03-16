@@ -1,0 +1,108 @@
+{
+  "version": "1.0",
+  "agent": "Adam-Ouroboros",
+  "updated": "2026-03-16T12:57:57.302333",
+  "stats": {
+    "total": 5,
+    "by_rank": {
+      "C": 4,
+      "B": 1,
+      "A": 0,
+      "S": 0,
+      "SS": 0,
+      "SSS": 0
+    },
+    "synthesized": 0,
+    "sss_count": 0
+  },
+  "base_skills": {
+    "frontend-design": {
+      "rang": "B",
+      "utilisations": 0,
+      "description": "Interfaces web distinctives, production-grade, design mémorable",
+      "essence": "transformation visuelle de l'information",
+      "affinite": [
+        "docx",
+        "pptx",
+        "pdf"
+      ],
+      "synergie_potentielle": [
+        "visual-document [A]",
+        "brand-system [S]"
+      ]
+    },
+    "docx": {
+      "rang": "C",
+      "utilisations": 0,
+      "description": "Documents Word professionnels, styles avancés",
+      "essence": "structuration formelle de la connaissance",
+      "affinite": [
+        "frontend-design",
+        "pdf"
+      ],
+      "synergie_potentielle": [
+        "visual-document [A]",
+        "document-pipeline [B]"
+      ]
+    },
+    "pdf": {
+      "rang": "C",
+      "utilisations": 0,
+      "description": "Création, manipulation, extraction PDF",
+      "essence": "cristallisation permanente de l'information",
+      "affinite": [
+        "docx",
+        "frontend-design"
+      ],
+      "synergie_potentielle": [
+        "print-design [A]",
+        "document-pipeline [B]"
+      ]
+    },
+    "pptx": {
+      "rang": "C",
+      "utilisations": 0,
+      "description": "Présentations PowerPoint, storytelling visuel",
+      "essence": "narration séquentielle de la connaissance",
+      "affinite": [
+        "frontend-design",
+        "xlsx"
+      ],
+      "synergie_potentielle": [
+        "pitch-deck-pro [A]",
+        "data-presentation [B]"
+      ]
+    },
+    "xlsx": {
+      "rang": "C",
+      "utilisations": 0,
+      "description": "Feuilles de calcul, formules, graphiques",
+      "essence": "quantification et modélisation de la réalité",
+      "affinite": [
+        "pptx",
+        "pdf"
+      ],
+      "synergie_potentielle": [
+        "data-dashboard [A]",
+        "full-data-experience [S]"
+      ]
+    }
+  },
+  "synthesized_skills": {},
+  "sss_skills": {},
+  "fusion_history": [],
+  "pending_fusions": [
+    {
+      "combo": [
+        "frontend-design",
+        "docx"
+      ],
+      "result": "visual-document",
+      "rang_cible": "A",
+      "condition": "ÉMERGENCE : documents qui ressemblent à des magazines",
+      "criteres_manquants": [
+        "émergence démontrée"
+      ]
+    }
+  ]
+}
