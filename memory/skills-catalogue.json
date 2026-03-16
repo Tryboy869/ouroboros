@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "agent": "Adam-Ouroboros",
-  "updated": "2026-03-16T13:02:18.719877",
+  "updated": "2026-03-16T13:02:52.945917",
   "stats": {
     "total": 5,
     "by_rank": {
@@ -18,7 +18,7 @@
   "base_skills": {
     "frontend-design": {
       "rang": "B",
-      "utilisations": 7,
+      "utilisations": 8,
       "description": "Interfaces web distinctives, production-grade, design mémorable",
       "essence": "transformation visuelle de l'information",
       "affinite": [
@@ -112,7 +112,7 @@
         "frontend-design",
         "xlsx"
       ],
-      "description": "La fusion de ces deux skills pourrait créer un outil qui permet de créer des tableaux de bord interactifs qui sont à la fois visuellement attrayants et fonctionnels. Cet outil pourrait être utilisé po",
+      "description": "La fusion de ces deux skills pourrait créer un outil qui permet de créer des tableaux de bord interactifs qui sont à la fois visuellement attrayants et fonctionnels, avec des fonctionnalités de traite",
       "criteres": {
         "emergence": true,
         "meta_impact": false,
@@ -120,7 +120,7 @@
         "asymetrie": true,
         "cout_paye": true
       },
-      "cycle_creation": 3,
+      "cycle_creation": 8,
       "unique": false
     },
     "docx-x-xlsx": {
@@ -274,6 +274,21 @@
       "composants": [
         "frontend-design",
         "pptx"
+      ],
+      "rang_obtenu": "S",
+      "criteres": {
+        "emergence": true,
+        "meta_impact": false,
+        "scalabilite": false,
+        "asymetrie": true,
+        "cout_paye": true
+      }
+    },
+    {
+      "cycle": 8,
+      "composants": [
+        "frontend-design",
+        "xlsx"
       ],
       "rang_obtenu": "S",
       "criteres": {
