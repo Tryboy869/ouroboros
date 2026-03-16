@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "agent": "Adam-Ouroboros",
-  "updated": "2026-03-16T13:00:14.014971",
+  "updated": "2026-03-16T13:00:18.360902",
   "stats": {
     "total": 5,
     "by_rank": {
@@ -18,7 +18,7 @@
   "base_skills": {
     "frontend-design": {
       "rang": "B",
-      "utilisations": 0,
+      "utilisations": 1,
       "description": "Interfaces web distinctives, production-grade, design mémorable",
       "essence": "transformation visuelle de l'information",
       "affinite": [
