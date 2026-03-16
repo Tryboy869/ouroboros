@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "agent": "Adam-Ouroboros",
-  "updated": "2026-03-16T13:02:52.945917",
+  "updated": "2026-03-16T13:03:28.028838",
   "stats": {
     "total": 5,
     "by_rank": {
@@ -18,7 +18,7 @@
   "base_skills": {
     "frontend-design": {
       "rang": "B",
-      "utilisations": 8,
+      "utilisations": 9,
       "description": "Interfaces web distinctives, production-grade, design mémorable",
       "essence": "transformation visuelle de l'information",
       "affinite": [
@@ -171,7 +171,7 @@
         "asymetrie": true,
         "cout_paye": true
       },
-      "cycle_creation": 6,
+      "cycle_creation": 9,
       "unique": false
     },
     "frontend-design-x-pptx": {
@@ -289,6 +289,21 @@
       "composants": [
         "frontend-design",
         "xlsx"
+      ],
+      "rang_obtenu": "S",
+      "criteres": {
+        "emergence": true,
+        "meta_impact": false,
+        "scalabilite": false,
+        "asymetrie": true,
+        "cout_paye": true
+      }
+    },
+    {
+      "cycle": 9,
+      "composants": [
+        "frontend-design",
+        "docx"
       ],
       "rang_obtenu": "S",
       "criteres": {
