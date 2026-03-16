@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "agent": "Adam-Ouroboros",
-  "updated": "2026-03-16T12:58:15.701886",
+  "updated": "2026-03-16T13:00:14.014971",
   "stats": {
     "total": 5,
     "by_rank": {
@@ -12,13 +12,13 @@
       "SS": 0,
       "SSS": 0
     },
-    "synthesized": 3,
+    "synthesized": 0,
     "sss_count": 0
   },
   "base_skills": {
     "frontend-design": {
       "rang": "B",
-      "utilisations": 2,
+      "utilisations": 0,
       "description": "Interfaces web distinctives, production-grade, design mémorable",
       "essence": "transformation visuelle de l'information",
       "affinite": [
@@ -47,7 +47,7 @@
     },
     "pdf": {
       "rang": "C",
-      "utilisations": 1,
+      "utilisations": 0,
       "description": "Création, manipulation, extraction PDF",
       "essence": "cristallisation permanente de l'information",
       "affinite": [
@@ -88,107 +88,9 @@
       ]
     }
   },
-  "synthesized_skills": {
-    "frontend-design-x-docx": {
-      "rang": "SS",
-      "composants": [
-        "frontend-design",
-        "docx"
-      ],
-      "description": "La fusion de ces deux skills pourrait créer un outil qui permet de concevoir des documents interactifs qui peuvent être affichés sur un écran ou imprimés. Cet outil pourrait inclure des fonctionnalité",
-      "criteres": {
-        "emergence": true,
-        "meta_impact": true,
-        "scalabilite": false,
-        "asymetrie": true,
-        "cout_paye": true
-      },
-      "cycle_creation": 1,
-      "unique": false
-    },
-    "pdf-x-xlsx": {
-      "rang": "SS",
-      "composants": [
-        "pdf",
-        "xlsx"
-      ],
-      "description": "La fusion de ces deux skills pourrait créer un outil qui permet de traiter des données qui sont stockées dans des documents PDF et des feuilles de calcul Excel. Cet outil pourrait inclure des fonction",
-      "criteres": {
-        "emergence": true,
-        "meta_impact": true,
-        "scalabilite": false,
-        "asymetrie": true,
-        "cout_paye": true
-      },
-      "cycle_creation": 2,
-      "unique": false
-    },
-    "frontend-design-x-pdf": {
-      "rang": "SS",
-      "composants": [
-        "frontend-design",
-        "pdf"
-      ],
-      "description": "La fusion de ces deux skills pourrait créer un outil qui permet de concevoir des documents interactifs qui peuvent être affichés sur un écran ou imprimés. Cet outil pourrait inclure des fonctionnalité",
-      "criteres": {
-        "emergence": true,
-        "meta_impact": true,
-        "scalabilite": false,
-        "asymetrie": true,
-        "cout_paye": true
-      },
-      "cycle_creation": 3,
-      "unique": false
-    }
-  },
+  "synthesized_skills": {},
   "sss_skills": {},
-  "fusion_history": [
-    {
-      "cycle": 1,
-      "composants": [
-        "frontend-design",
-        "docx"
-      ],
-      "rang_obtenu": "SS",
-      "criteres": {
-        "emergence": true,
-        "meta_impact": true,
-        "scalabilite": false,
-        "asymetrie": true,
-        "cout_paye": true
-      }
-    },
-    {
-      "cycle": 2,
-      "composants": [
-        "pdf",
-        "xlsx"
-      ],
-      "rang_obtenu": "SS",
-      "criteres": {
-        "emergence": true,
-        "meta_impact": true,
-        "scalabilite": false,
-        "asymetrie": true,
-        "cout_paye": true
-      }
-    },
-    {
-      "cycle": 3,
-      "composants": [
-        "frontend-design",
-        "pdf"
-      ],
-      "rang_obtenu": "SS",
-      "criteres": {
-        "emergence": true,
-        "meta_impact": true,
-        "scalabilite": false,
-        "asymetrie": true,
-        "cout_paye": true
-      }
-    }
-  ],
+  "fusion_history": [],
   "pending_fusions": [
     {
       "combo": [
